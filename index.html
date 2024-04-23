@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Minutes</title>
+    <link rel="stylesheet" href="mystyle.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+    </style>
 </head>
 <body>
     <nav>
@@ -18,8 +22,10 @@
 
 <main>
     <header>
-        <h1>Meeting Minutes</h1>
-        <h1>Team Information: Number 32, Name: Memory Munchers</h1>
+        <div class="hOne"> 
+        <h1 id="meeting-minutes">Meeting Minutes</h1>
+        <h1 id="team-info">Team Information: Number 32, Name: Memory Munchers</h1>
+        </div> 
 
     <fieldset>
         <h3>Digital Conquest: The Battle Cry of <em>Memory Munchers</em> </h3>
@@ -37,7 +43,7 @@
         <hr />
         <h3>Our Logo (things that were presented) and Team Video </h3>
         <details>
-            <summary>Summary about logo</summary>
+            <summary>Summary about logo (click the text)</summary>
             It is the best team logo ever.
           </details>
           <div class="teamlogo">      
@@ -99,6 +105,10 @@
             <li>None</li>
         </ul>
     </section>
+
+      
+     
+
     <hr />
     <section>
         <h2>Agenda Items</h2>
@@ -254,8 +264,10 @@
     <hr />
     <section>
         <h2>New Team Members Sign Up</h2>
-        <p>New Team Members add your info here</p>
-    
+        
+        <div class="currentmemberform">
+            <p>Are you a current member but need to update some information? You can use this form to do so as well.</p>
+        </div>
 
     
         <form id="survey-form" method="post" >
@@ -340,6 +352,37 @@
             <input type="text" id="signaturename" name="signaturenamehere" required minlength="1" maxlength="9" size="10" />
         </fieldset>
     </section>
+
+
+
+    <section>
+        <div class="playground-container">
+            <label id="playground"> Playground </label>
+        </div>
+        <div class="box" id="one">One</div>
+        <div class="box" id="two">Two</div>
+    </section>
+
+
+    <section> 
+        <ul class="flex-container">
+            <li class="flex-item"> <button class="confirmed" type="button"> Fancy button </button> </li>
+            <li class="flex-item"><button class="confirmed" type="button"> Another one </button> </li>
+            <li class="flex-item"><button class="confirmed" type="button"> Last one </button></li>
+             
+          </ul>
+    </section>
+
+      
+        <section class="gridTest">
+            <div class="item-a">item-a</div>
+            <div class="item-b">item-b</div>
+            <div class="item-c">item-c</div>
+            <div class="item-d">item-d</div>
+            <div class="item-e">item-e</div>
+          </section>
+     
+
 </main>
 
 <footer id="copyright">
