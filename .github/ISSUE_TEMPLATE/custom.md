@@ -1,9 +1,9 @@
 ---
 name: Custom issue template
 about: 'Lab 3 Issues '
-title: ''
-labels: ''
-assignees: ''
+title: ' Lab 3 '
+labels: ' Lab 3 Issues '
+assignees: ' Anthony Chapov '
 
 ---
 
